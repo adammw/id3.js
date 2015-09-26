@@ -1,0 +1,35 @@
+{
+  "name": "id3v2-writer",
+  "version": "0.0.0",
+  "description": "ID3v2 Tag Writer",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --compilers js:babel/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adammw/id3.js.git"
+  },
+  "keywords": [
+    "id3",
+    "id3v2",
+    "mp3",
+    "tag"
+  ],
+  "author": "Adam M-W <https://github.com/adammw>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adammw/id3.js/issues"
+  },
+  "homepage": "https://github.com/adammw/id3.js#readme",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "expect.js": "^0.3.1"
+  },
+  "dependencies": {
+    "text-encoding": "^0.5.2"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  }
+}
