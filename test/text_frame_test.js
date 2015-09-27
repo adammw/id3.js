@@ -2,7 +2,7 @@ import ID3TextFrame from '../lib/text_frame';
 import expect from 'expect.js';
 
 describe('ID3TextFrame', () => {
-  var data, frame;
+  var frame;
   beforeEach(() => {
     frame = new ID3TextFrame('TIT2', 'My Epic Song');
   });
